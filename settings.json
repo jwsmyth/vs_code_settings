@@ -1,0 +1,70 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "explorer.confirmDelete": false,
+    "python.linting.flake8Args": [
+        "--ignore=E302,E305,E501"
+    ],
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.colorCustomizations": {},
+    "editor.fontFamily": "Fira Code",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    
+    // Format on save (Default: Prettier)
+    "editor.formatOnSave": true,
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python",
+      "editor.insertSpaces": true,
+      "editor.tabSize": 4
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": [
+      {
+        "viewType": "jupyter.notebook.ipynb",
+        "filenamePattern": "*.ipynb"
+      }
+    ],
+      "vim.easymotion": true,
+      "vim.incsearch": true,
+      "vim.useSystemClipboard": true,
+      "vim.useCtrlKeys": true,
+      "vim.hlsearch": true,
+      "vim.insertModeKeyBindings": [
+        {
+          // This doesn't work. I have changed the keyboard in system preferences
+          "before": ["capslock"],
+          "after": ["<Esc>"]
+        }
+      ],
+      "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "before": ["<leader>", "d"],
+          "after": ["d", "d"]
+        },
+        {
+          "before": ["<C-n>"],
+          "commands": [":nohl"]
+        }
+      ],
+      "vim.leader": "<space>",
+      "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+      },
+      "editor.lineNumbers": "relative"
+}
