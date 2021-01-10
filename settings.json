@@ -33,6 +33,9 @@
     "[javascriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "workbench.editorAssociations": [
       {
         "viewType": "jupyter.notebook.ipynb",
