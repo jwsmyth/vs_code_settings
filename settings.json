@@ -4,7 +4,6 @@
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.iconTheme": "material-icon-theme",
-    "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "explorer.confirmDelete": false,
     "python.linting.flake8Args": [
@@ -39,17 +38,16 @@
       }
     },
     "editor.fontFamily": "Fira Code",
-    "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "editor.codeActionsOnSave": {
-      "source.fixAll": true
+      "source.fixAll": false
     },
     "[vue]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     
     // Format on save (Default: Prettier)
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "[python]": {
       "editor.defaultFormatter": "ms-python.python",
       "editor.insertSpaces": true,
@@ -67,12 +65,12 @@
     "[html]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.editorAssociations": [
-      {
-        "viewType": "jupyter.notebook.ipynb",
-        "filenamePattern": "*.ipynb"
-      }
-    ],
+    "[ampscript]": {
+      "editor.defaultFormatter": "FiB.beautyAmp"
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter.notebook.ipynb"
+    },
       "vim.easymotion": true,
       "vim.incsearch": true,
       "vim.useSystemClipboard": true,
@@ -107,5 +105,6 @@
       "diffEditor.wordWrap": "on",
       "materialTheme.accent": "Bright Teal",
       "javascript.updateImportsOnFileMove.enabled": "always",
-      "liveshare.authenticationProvider": "GitHub",
+    "liveshare.authenticationProvider": "GitHub",
+"editor.wordWrap": "on",
 }
