@@ -1,110 +1,117 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.minimap.enabled": false,
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.fontLigatures": true,
-    "explorer.confirmDelete": false,
-    "python.linting.flake8Args": [
-        "--ignore=E302,E305,E501"
-    ],
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "workbench.colorCustomizations": {
-      "[Material Theme Darker High Contrast]": {
-        "activityBarBadge.background": "#64FFDA",
-        "activityBar.activeBorder": "#64FFDA",
-        "list.activeSelectionForeground": "#64FFDA",
-        "list.inactiveSelectionForeground": "#64FFDA",
-        "list.highlightForeground": "#64FFDA",
-        "scrollbarSlider.activeBackground": "#64FFDA50",
-        "editorSuggestWidget.highlightForeground": "#64FFDA",
-        "textLink.foreground": "#64FFDA",
-        "progressBar.background": "#64FFDA",
-        "pickerGroup.foreground": "#64FFDA",
-        "tab.activeBorder": "#64FFDA",
-        "notificationLink.foreground": "#64FFDA",
-        "editorWidget.resizeBorder": "#64FFDA",
-        "editorWidget.border": "#64FFDA",
-        "settings.modifiedItemIndicator": "#64FFDA",
-        "settings.headerForeground": "#64FFDA",
-        "panelTitle.activeBorder": "#64FFDA",
-        "breadcrumb.activeSelectionForeground": "#64FFDA",
-        "menu.selectionForeground": "#64FFDA",
-        "menubar.selectionForeground": "#64FFDA",
-        "editor.findMatchBorder": "#64FFDA",
-        "selection.background": "#64FFDA40",
-        "statusBarItem.remoteBackground": "#64FFDA"
-      }
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.minimap.enabled": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontLigatures": true,
+  "explorer.confirmDelete": false,
+  "python.linting.flake8Args": ["--ignore=E302,E305,E501"],
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.colorCustomizations": {
+    "[Material Theme Darker High Contrast]": {
+      "activityBarBadge.background": "#64FFDA",
+      "activityBar.activeBorder": "#64FFDA",
+      "list.activeSelectionForeground": "#64FFDA",
+      "list.inactiveSelectionForeground": "#64FFDA",
+      "list.highlightForeground": "#64FFDA",
+      "scrollbarSlider.activeBackground": "#64FFDA50",
+      "editorSuggestWidget.highlightForeground": "#64FFDA",
+      "textLink.foreground": "#64FFDA",
+      "progressBar.background": "#64FFDA",
+      "pickerGroup.foreground": "#64FFDA",
+      "tab.activeBorder": "#64FFDA",
+      "notificationLink.foreground": "#64FFDA",
+      "editorWidget.resizeBorder": "#64FFDA",
+      "editorWidget.border": "#64FFDA",
+      "settings.modifiedItemIndicator": "#64FFDA",
+      "settings.headerForeground": "#64FFDA",
+      "panelTitle.activeBorder": "#64FFDA",
+      "breadcrumb.activeSelectionForeground": "#64FFDA",
+      "menu.selectionForeground": "#64FFDA",
+      "menubar.selectionForeground": "#64FFDA",
+      "editor.findMatchBorder": "#64FFDA",
+      "selection.background": "#64FFDA40",
+      "statusBarItem.remoteBackground": "#64FFDA"
+    }
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Format on save (Default: Prettier)
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ampscript]": {
+    "editor.defaultFormatter": "FiB.beautyAmp"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      // This doesn't work. I have changed the keyboard in system preferences
+      "before": ["capslock"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
     },
-    "editor.fontFamily": "Fira Code",
-    "editor.detectIndentation": false,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": false
-    },
-    "[vue]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    
-    // Format on save (Default: Prettier)
-    "editor.formatOnSave": false,
-    "[python]": {
-      "editor.defaultFormatter": "ms-python.python",
-      "editor.insertSpaces": true,
-      "editor.tabSize": 4
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[ampscript]": {
-      "editor.defaultFormatter": "FiB.beautyAmp"
-    },
-    "workbench.editorAssociations": {
-      "*.ipynb": "jupyter.notebook.ipynb"
-    },
-      "vim.easymotion": true,
-      "vim.incsearch": true,
-      "vim.useSystemClipboard": true,
-      "vim.useCtrlKeys": true,
-      "vim.hlsearch": true,
-      "vim.insertModeKeyBindings": [
-        {
-          // This doesn't work. I have changed the keyboard in system preferences
-          "before": ["capslock"],
-          "after": ["<Esc>"]
-        }
-      ],
-      "vim.normalModeKeyBindingsNonRecursive": [
-        {
-          "before": ["<leader>", "d"],
-          "after": ["d", "d"]
-        },
-        {
-          "before": ["<C-n>"],
-          "commands": [":nohl"]
-        }
-      ],
-      "vim.leader": "<space>",
-      "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-f>": false
-      },
-      "editor.lineNumbers": "relative",
-      "terminal.external.osxExec": "iTerm2.app",
-      "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-      "explorer.confirmDragAndDrop": false,
-      "diffEditor.wordWrap": "on",
-      "materialTheme.accent": "Bright Teal",
-      "javascript.updateImportsOnFileMove.enabled": "always",
-    "liveshare.authenticationProvider": "GitHub",
-"editor.wordWrap": "on",
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "editor.lineNumbers": "relative",
+  "terminal.external.osxExec": "iTerm2.app",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.wordWrap": "on",
+  "materialTheme.accent": "Bright Teal",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveshare.authenticationProvider": "GitHub",
+  "editor.wordWrap": "on",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "npm.keybindingsChangedWarningShown": true
 }
